@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>356271218751-1lf8kmndqp2cg08l5rliucheoipn4rs0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.356271218751-1lf8kmndqp2cg08l5rliucheoipn4rs0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCIbDEvc2rv74ENBiSeC0wtckURRN55LwI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>356271218751</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>monrid.Gas-App</string>
+	<key>PROJECT_ID</key>
+	<string>project-demo-gas</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-demo-gas.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:356271218751:ios:47b25a5ff9c0f82e63988a</string>
+</dict>
+</plist>

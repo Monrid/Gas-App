@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC0DB0958342222A8D87DFA /* Pods_Gas_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC034123F8C386372F7B695 /* Pods_Gas_App.framework */; };
 		882DDBD52807110A00F9FF22 /* Gas_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DDBD42807110A00F9FF22 /* Gas_AppApp.swift */; };
 		882DDBD72807110A00F9FF22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DDBD62807110A00F9FF22 /* ContentView.swift */; };
 		882DDBD92807110C00F9FF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DDBD82807110C00F9FF22 /* Assets.xcassets */; };
 		882DDBDC2807110C00F9FF22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DDBDB2807110C00F9FF22 /* Preview Assets.xcassets */; };
+		882DDBE32821464500F9FF22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 882DDBE22821464500F9FF22 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC034123F8C386372F7B695 /* Pods_Gas_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C499CC92DE5151A8DFFEFD /* Pods-Gas App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas App.debug.xcconfig"; path = "Target Support Files/Pods-Gas App/Pods-Gas App.debug.xcconfig"; sourceTree = "<group>"; };
 		882DDBD12807110A00F9FF22 /* Gas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		882DDBD42807110A00F9FF22 /* Gas_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_AppApp.swift; sourceTree = "<group>"; };
 		882DDBD62807110A00F9FF22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		882DDBD82807110C00F9FF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882DDBDB2807110C00F9FF22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		882DDBE22821464500F9FF22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB52BF7B2DF12CC685FD9C0C /* Pods-Gas App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas App.release.xcconfig"; path = "Target Support Files/Pods-Gas App/Pods-Gas App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +32,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC0DB0958342222A8D87DFA /* Pods_Gas_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606B18D98D25C89AA0799F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C499CC92DE5151A8DFFEFD /* Pods-Gas App.debug.xcconfig */,
+				FB52BF7B2DF12CC685FD9C0C /* Pods-Gas App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		882DDBC82807110A00F9FF22 = {
 			isa = PBXGroup;
 			children = (
 				882DDBD32807110A00F9FF22 /* Gas App */,
 				882DDBD22807110A00F9FF22 /* Products */,
+				606B18D98D25C89AA0799F61 /* Pods */,
+				AB38CBA547CB810AF6B0B78B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +70,7 @@
 		882DDBD32807110A00F9FF22 /* Gas App */ = {
 			isa = PBXGroup;
 			children = (
+				882DDBE22821464500F9FF22 /* GoogleService-Info.plist */,
 				882DDBD42807110A00F9FF22 /* Gas_AppApp.swift */,
 				882DDBD62807110A00F9FF22 /* ContentView.swift */,
 				882DDBD82807110C00F9FF22 /* Assets.xcassets */,
@@ -67,6 +87,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AB38CBA547CB810AF6B0B78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC034123F8C386372F7B695 /* Pods_Gas_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 882DDBDF2807110C00F9FF22 /* Build configuration list for PBXNativeTarget "Gas App" */;
 			buildPhases = (
+				5FE3E758A239DD695F1ECFEB /* [CP] Check Pods Manifest.lock */,
 				882DDBCD2807110A00F9FF22 /* Sources */,
 				882DDBCE2807110A00F9FF22 /* Frameworks */,
 				882DDBCF2807110A00F9FF22 /* Resources */,
+				48CA821CE66A4121CF0132A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,10 +157,53 @@
 			files = (
 				882DDBDC2807110C00F9FF22 /* Preview Assets.xcassets in Resources */,
 				882DDBD92807110C00F9FF22 /* Assets.xcassets in Resources */,
+				882DDBE32821464500F9FF22 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48CA821CE66A4121CF0132A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas App/Pods-Gas App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas App/Pods-Gas App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gas App/Pods-Gas App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE3E758A239DD695F1ECFEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gas App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		882DDBCD2807110A00F9FF22 /* Sources */ = {
@@ -263,6 +336,7 @@
 		};
 		882DDBE02807110C00F9FF22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C499CC92DE5151A8DFFEFD /* Pods-Gas App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +365,7 @@
 		};
 		882DDBE12807110C00F9FF22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB52BF7B2DF12CC685FD9C0C /* Pods-Gas App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
